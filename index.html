@@ -1,29 +1,55 @@
-<html>
-  <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header>
-      <img src="https://sun9-79.userapi.com/impg/005q6dz3_HmTEiJ4z35SxiR3L4Bf8NC5HfPSGQ/77IUC_OZXGs.jpg?size=640x640&quality=95&sign=9db573b83b6586e1c1af4bd2988a5293&type=album" alt="Profile Picture">
-      <h1>Даша Родионова</h1>
-    </header>
-    <section>
-      <h2>Обо мне</h2>
-      <p>Редактор, маркетолог. Помогаю брендам и экспертам собирать статьи и проводить интервью</p>
-    </section>
-    <section>
-      <h2>Примеры моих статей</h2>
-      <ul>
-        <li><a href="https://pro.rbc.ru/demo/619741889a794708f5970ecf">Про интвентаризацию маркетинга на РБК</a></li> 
-        <li><a href=" https://delovoymir.biz/zachem-brendu-pozdravlyat-klientov-s-dnem-rozhdeniya-i-kak-sdelat-eto-v-email-rassylke.html">Как поздравлять клиентов в днём рождения для Делового Мира</a></li>
-       
-        <li> <a href="https://rb.ru/opinion/welcome-pismo/">Как составить приветственное письмо для Rusbase</a></li>
-      </ul>
-    </section>
-    <footer>
-      <a href="https://vk.com/remiltar">Мой профиль ВК</a>
-    </footer>
-    <script src="script.js"></script>
-  </body>
-</html>
+<!-- Navbar Begin -->
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+            <a href="index.php" class="uk-navbar-item uk-logo  uk-text-uppercase" style="letter-spacing:5px;color: Black;">Даша Родионова</a>
+            </ul>
+        </div>
+    </nav>
+<!-- Navbar End -->
+    <hr class="uk-divider-icon">
+<div align="center">
+<!-- Bio Begin -->
+    <div style="border-radius: 2pc;" class="uk-card uk-card-default uk-card-body uk-width-1-3@m uk-margin-bottom">
+        <h3 class="uk-card-title" style="letter-spacing:1px;">Редактор и маркетолог</h3>
+        <div  align="center" id="otobiography" style="padding-left: -20px;" class="uk-card uk-card-body">
+            <img class="uk-align-center" width="157" height="93" src="https://sun9-79.userapi.com/impg/005q6dz3_HmTEiJ4z35SxiR3L4Bf8NC5HfPSGQ/77IUC_OZXGs.jpg?size=640x640&quality=95&sign=9db573b83b6586e1c1af4bd2988a5293&type=album" alt="">
+        </div>
+        <p style="margin-top: -15px;display:inline-block;" align="warp">  Помогаю брендам и экспертам с текстом: пишу&nbspстатьи,&nbspсобираю&nbspлендинги, провожу интервью 
+      </p>
+    </div>
+<!-- Bio End -->
+  
+<!-- Skills Begin -->
+    <div style="border-radius: 2pc;" id="skills" class="uk-card uk-card-default uk-card-body skills uk-width-1-3@m uk-margin-bottom">
+        <h3 class="uk-card-title  uk-text-uppercase" style="letter-spacing:4px;">Примеры моих статей</h3>
+        <div style="max-width: 550px;" align="left">
+            <ul class="uk-list uk-list-striped">
+                <li><a href="https://rb.ru/opinion/welcome-pismo/">Как составить приветственное письмо для Rusbase</a></li>
+                <li><a href=" https://delovoymir.biz/zachem-brendu-pozdravlyat-klientov-s-dnem-rozhdeniya-i-kak-sdelat-eto-v-email-rassylke.html">Как поздравлять клиентов в днём рождения для Делового Мира</a></li>
+                <li><a href="https://pro.rbc.ru/demo/619741889a794708f5970ecf">Про инвентаризацию маркетинга на РБК</a>
+            </ul>
+        </div>
+    </div>
+<!-- Skills End -->
+  
+<!-- Links Begin -->
+    <div style="border-radius: 2pc;" id="links" class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
+        <h3 class="uk-card-title uk-text-uppercase" style="letter-spacing:3px;">Связаться со мной</h3>
+            <ul align="warp" class="uk-list">
+    
+            	<li><span uk-icon="pencil"></span> <a class="uk-link-text" target="_blank" href="https://vk.com/remiltar">my VK</a></li>
+    
+                <li><span uk-icon="mail"></span> <a class="uk-link-text" target="_blank" href="https://t.me/rmltr">my Telegram</a></li>
+            </ul>
+    </div>
+<!-- Links End -->
+  
+    <hr class="uk-divider-icon">
+  
+<!-- Footer Begin -->
+    <div style="border-radius: 2pc;" class="uk-card uk-card-default uk-card-body uk-width-1-3@m">
+        <p class="uk-text-warp">До встречи!</p>
+    </div>
+</div>
+<!-- Footer End -->
